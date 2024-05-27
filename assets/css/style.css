@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero {
+    background: url('/assets/img/WhatsApp\ Image\ 2024-05-23\ at\ 12.07.58.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(8, 8, 8);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cta {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    height: 50vh;
+    color: rgb(12, 11, 11);
+}
+
+.feature-box {
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
